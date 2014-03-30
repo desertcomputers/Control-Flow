@@ -18,6 +18,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    int truckSpeed = 45;
+    int lamboSpeed = 120;
+    int mySpeed = lamboSpeed;
+    
+    if (mySpeed < 70) {
+        NSLog(@"Keep cruising!");
+    }
+    else {
+        NSLog(@"Slow Down!");
+        
+    }
+    
+    BOOL isTelevisionOn = NO;
+    
+    if (isTelevisionOn != YES) {
+        NSLog(@"You should turn the TV off!");
+    }
+    else {
+        NSLog(@"Take a break. You deserve it!");
+    }
 }
 
 - (void)didReceiveMemoryWarning
